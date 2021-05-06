@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono');
+
+body {
+    font-family: 'Roboto Mono';
+}
+
+#conteiner {
+    width: 80%;
+    margin: auto;
+    padding: 0% 1%;
+}
+
+.cabecera {
+    background: #0fbcf9;
+    padding: 1%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.cabecera h1 {
+    text-align: left;
+    font-size: 40px;
+}
+
+.navegacion {
+    text-align: center;
+    background: #1e272e;
+    padding: 0.3%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 1.5%;
+}
+
+.navegacion li {
+    display: inline-block;
+    list-style: none;
+    margin: 0% 1%;
+}
+
+.navegacion a {
+    color: cornsilk;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.seccion {
+    width: 70%;
+    margin: 0.5%;
+    float: left;
+}
+
+.articulo {
+    margin: 1%;
+    text-align: center;
+}
+
+.articulo a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1e272e;
+    font-size: 18px;
+}
+
+.articulo h2 {
+    text-align: center;
+    background: #ffc048;
+    padding: 1.5%;
+    margin: 0%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.articulo h3 {
+    text-align: center;
+    font-size: 18px;
+    color: #485460;
+    margin: 0%;
+    padding: 0.5% 1.5%;
+    background: #ffc048;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.articulo time {
+    color: #808e9b;
+    font-size: 12px;
+    display: block;
+    text-align: right;
+    margin: 1%;
+}
+
+.cuerpoArticulo {
+    padding: 1%;
+}
+
+.cuerpoArticulo p {
+    text-align: left;
+}
+
+.cuerpoArticulo a {
+    text-transform: lowercase;
+}
+
+.cuerpoArticulo img, video, audio {
+    width: 80%;
+    margin: 3%;
+}
+
+#comentarios {
+    text-align: right;
+    font-size: 14px;
+}
+
+.columna {
+    display: block;
+    float: left;
+    width: 25%;
+    margin-top: 1%;
+    margin-left: 2.5%;
+    background: #d2dae2;
+    border-radius: 5px;
+}
+
+.pie {
+    background: #1e272e;
+    display: block;
+    padding: 0.5%;
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 5px;
+    clear: both;
+}
