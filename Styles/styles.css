@@ -11,7 +11,7 @@ body {
 }
 
 .cabecera {
-    background: #0fbcf9;
+    background: linear-gradient(to right, #0fbcf9 40%, #0be881);
     padding: 1%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -19,7 +19,8 @@ body {
 
 .cabecera h1 {
     text-align: left;
-    font-size: 40px;
+    font-size: 45px;
+    padding-left: 2%;
 }
 
 .navegacion {
@@ -52,31 +53,32 @@ body {
 .articulo {
     margin: 1%;
     text-align: center;
+    margin-bottom: 8%;
 }
 
 .articulo a {
-    text-transform: uppercase;
     text-decoration: none;
-    color: #1e272e;
-    font-size: 18px;
+    color: #1e272e;  
 }
 
 .articulo h2 {
-    text-align: center;
-    background: #ffc048;
+    text-align: left;
+    color: #1e272e;
+    font-size: 28px;
+    text-transform: uppercase;
     padding: 1.5%;
     margin: 0%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    border-bottom: 1px solid #808e9b;
 }
 
 .articulo h3 {
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     color: #485460;
     margin: 0%;
     padding: 0.5% 1.5%;
-    background: #ffc048;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -91,6 +93,11 @@ body {
 
 .cuerpoArticulo {
     padding: 1%;
+}
+
+#imgPerfil img {
+    display: block;
+    width: 20%;
 }
 
 .cuerpoArticulo p {
@@ -121,6 +128,16 @@ body {
     border-radius: 5px;
 }
 
+.columna_perfil {
+    display: block;
+    float: left;
+    width: 20%;
+    margin-top: 1%;
+    margin-left: 2.5%;
+    background: #d2dae2;
+    border-radius: 5px;
+}
+
 .pie {
     background: #1e272e;
     display: block;
@@ -130,4 +147,43 @@ body {
     text-align: center;
     border-radius: 5px;
     clear: both;
+}
+
+.pie_perfil {
+    background: #1e272e;
+    display: block;
+    padding: 0.5%;
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 5px;
+    clear: both;
+    width: 80%;
+    margin: auto;
+}
+
+.formContainer {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.tabla {
+    margin: 1%;
+}
+
+.tabla input {
+    width: 40%;
+    padding: 1%;
+}
+
+.tabla textarea {
+    width: 41.5%;
+    padding-bottom: 20%;
+}
+
+.botonForm input {
+    width: 41.5%;
+    padding: 1%;
+    margin-left: 0.9%;
 }

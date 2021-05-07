@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../img/icon-page.png">
+    <link rel="stylesheet" href="../Styles/styles.css">
     <title>Mi Blog | Articulo 2</title>
     <meta name="description" content="Primer practica de pagina web">
     <meta name="author" content="Elio Lucero">
     <meta name="keywords" content="Primer pagina, Blog, web">
 </head>
 <body>
-        <header>
+    <div id="conteiner">
+        <header class="cabecera">
             <h1>Mi Blog</h1>
-            <img src="../img/RosaVientos.png" width="150">
         </header>
 
-        <nav>
+        <nav class="navegacion">
             <ul>
                 <li>
                     <a href="../index.html">Inicio</a>
@@ -30,13 +31,13 @@
             </ul>
         </nav>
 
-        <section>
-            <article>
+        <section class="seccion">
+            <article class="articulo">
                 <h2>Titulo Segundo Articulo</h2>
                 <h3>Subtitulo Segundo Articulo</h3>
                 <time datetime="20-04-21">Publicado 20-04-2021</time>
-                <div>
-                    <video src="../video/Colors of Argentina - 4K Drone Travel Video.mp4" width="500px" controls></video>
+                <div class="cuerpoArticulo">
+                    <video src="../video/Colors of Argentina - 4K Drone Travel Video.mp4" controls></video>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta repellat, modi quos provident sint nihil temporibus et obcaecati exercitationem quidem nobis numquam autem quis illo rerum consequuntur, <small>enim ea. Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
 
@@ -47,8 +48,9 @@
                     <p id="comentarios">Comentarios (12)</p>
                 </footer>
             </article>
+        </section>
 
-        <aside>
+        <aside class="columna">
             <blockquote cite="https://google.com">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit facilis maxime sint a molestiae amet!
                     <address>
@@ -58,8 +60,9 @@
             </blockquote>
         </aside>
 
-        <footer>
+        <footer class="pie">
             <h6>Derechos reservados 2021. Elio Lucero.</h6>
         </footer>
+    </div>
 </body>
 </html>

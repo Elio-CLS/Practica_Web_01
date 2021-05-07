@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/icon-page.png">
+    <link rel="stylesheet" href="Styles/styles.css">
     <title>Mi Blog | Contacto</title>
     <meta name="description" content="Primer practica de pagina web">
     <meta name="author" content="Elio Lucero">
     <meta name="keywords" content="Primer pagina, Blog, web">
 </head>
+
 <body>
-        <header>
+    <div id="conteiner">
+        <header class="cabecera">
             <h1>Mi Blog</h1>
-            <img src="img/RosaVientos.png" width="150">
         </header>
 
-        <nav>
+        <nav class="navegacion">
             <ul>
                 <li>
                     <a href="index.html">Inicio</a>
@@ -30,23 +32,32 @@
             </ul>
         </nav>
 
+        <section class="seccion">
         <h2>Formas de contacto</h2>
         <h3>Formulario y redes sociales</h3>
-            <div>
+            <div class="cuerpoArticulo">
                 <p>
                     <br><br>Anihil, laudantium minus officiis quibusdam, sapiente vitae dolore, maxime labore optio numquam doloremque provident tempore.
                 </p>
+                
+                <div class="formContainer">
+                    <form method="POST" action="contacto.html">
+                        <div class="tabla"><input type="text" required name="Nombre" placeholder="Nombre"></div>
 
-                <form method="POST" action="contacto.html">
-                    <input type="text" required name="Nombre" placeholder="Nombre">
-                    <input type="text" required name="Apellido" placeholder="Apellido">
-                    <input type="email" required name="email" placeholder="email">
-                    <textarea placeholder="Mensaje"></textarea>
-                    <input type="submit" name="enviar">
-                </form>
+                        <div class="tabla"><input type="text" required name="Apellido" placeholder="Apellido"></div>
+
+                        <div class="tabla"><input type="email" required name="email" placeholder="email"></div>
+
+                        <div class="tabla"><textarea placeholder="Mensaje"></textarea></div>
+
+                        <div class="botonForm"><input type="submit" name="enviar"></div>
+                    </form>
+                </div>
+
             </div>
+        </section>
 
-        <aside>
+        <aside class="columna">
             <blockquote cite="https://google.com">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit facilis maxime sint a molestiae amet!
                     <address>
@@ -56,8 +67,9 @@
             </blockquote>
         </aside>
 
-        <footer>
+        <footer class="pie">
             <h6>Derechos reservados 2021. Elio Lucero.</h6>
         </footer>
+    </div>    
 </body>
 </html>
